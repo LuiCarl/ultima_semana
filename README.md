@@ -18,6 +18,25 @@ Para ejecutar este proyecto, sigue los siguientes pasos:
 
 - `flask.ipynb`: Este archivo proporciona una alternativa para ejecutar la aplicación Flask desde un entorno de Jupyter Notebook.
 
+## Dependencias
+
+Este proyecto depende de las siguientes bibliotecas de Python:
+
+- Flask
+- Pandas
+- NumPy
+- Pickle
+- Joblib
+
+Puedes instalar estas dependencias utilizando `pip`:
+
+```bash
+pip install flask pandas numpy joblib pickle
+```
+
 ## Uso de la Aplicación
 
 Una vez que la aplicación esté en funcionamiento, puedes acceder a ella desde tu navegador web. Proporciona la edad, sexo y clase del pasajero del Titanic y obtén una predicción sobre su supervivencia.
+
+## Notas Adicionales.
+Los modelos de predicción se cargan desde los archivos 'model1.pkl' y 'model1.joblib' que se generan en el archivo api.ipynb
